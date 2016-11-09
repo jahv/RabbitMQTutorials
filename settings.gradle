@@ -1,0 +1,8 @@
+rootProject.name = 'RabbitMQTutorials'
+include 'Test1_HelloWorld'
+include 'Test2_WorkQueues'
+include 'Test3_PublishSubscribe'
+include 'Test4_Routing'
+include 'Test5_Topics'
+include 'Test6_RabbitMQSpringIntegration'
+

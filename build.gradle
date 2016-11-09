@@ -1,0 +1,31 @@
+allprojects {
+    apply plugin: 'maven'
+
+    group = 'jahv.test.rabbitmq.tutorials'
+    version = '1.0-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    ext {
+        rabbitMQVersion = '3.6.5'
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.11'
+        compile group: 'com.rabbitmq', name: 'amqp-client', version: "$rabbitMQVersion"
+    }
+}
+
+
+
+
+
