@@ -1,23 +1,8 @@
 dependencies {
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '1.4.1.RELEASE'
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-integration
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-integration', version: '1.4.1.RELEASE'
-    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-amqp
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '1.4.1.RELEASE'
-    // https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-amqp
     compile group: 'org.springframework.integration', name: 'spring-integration-amqp', version: '4.3.4.RELEASE'
-    // https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-java-dsl
     compile group: 'org.springframework.integration', name: 'spring-integration-java-dsl', version: '1.2.0.RELEASE'
-    // https://mvnrepository.com/artifact/org.springframework/spring-web
     compile group: 'org.springframework', name: 'spring-web', version: '4.3.3.RELEASE'
-
-
-
-
-//    compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.4.1.RELEASE'
-//    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.4.1.RELEASE'
-//    compile group: 'org.springframework.integration', name: 'spring-integration-core', version: '4.3.4.RELEASE'
-//    compile group: 'org.springframework.integration', name: 'spring-integration-java-dsl', version: '1.2.0.RELEASE'
-//    compile group: 'org.springframework.integration', name: 'spring-integration-amqp', version: '4.3.4.RELEASE'
 }

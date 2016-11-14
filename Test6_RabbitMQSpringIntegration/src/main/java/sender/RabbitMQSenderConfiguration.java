@@ -20,7 +20,7 @@ public class RabbitMQSenderConfiguration {
 
     @Bean
     TopicExchange jahvRabbitMQExchange() {
-        return new TopicExchange(EXCHANGE_NAME, true, false);
+        return new TopicExchange(EXCHANGE_NAME, false, true);
     }
 
     @Bean

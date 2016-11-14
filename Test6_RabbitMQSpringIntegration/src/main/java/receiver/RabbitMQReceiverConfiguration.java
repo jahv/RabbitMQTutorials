@@ -26,7 +26,7 @@ public class RabbitMQReceiverConfiguration {
 
     @Bean
     Exchange jahvRabbitMQExchange() {
-        return ExchangeBuilder.topicExchange(EXCHANGE_NAME).durable().build();
+        return ExchangeBuilder.topicExchange(EXCHANGE_NAME).autoDelete().build();
     }
 
     @Bean
