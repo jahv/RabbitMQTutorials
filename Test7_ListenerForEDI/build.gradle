@@ -1,0 +1,27 @@
+//buildscript {
+//    repositories {
+//        maven { url 'http://repo.spring.io/plugins-release' }
+//    }
+//    dependencies {
+//        classpath 'org.springframework.build.gradle:propdeps-plugin:0.0.7'
+//    }
+//}
+//
+//configure(allprojects) {
+//    apply plugin: 'propdeps'
+//    apply plugin: 'propdeps-maven'
+//    apply plugin: 'propdeps-idea'
+//    apply plugin: 'propdeps-eclipse'
+//}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '1.4.1.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-integration', version: '1.4.1.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '1.4.1.RELEASE'
+    compile group: 'org.springframework.integration', name: 'spring-integration-amqp', version: '4.3.4.RELEASE'
+    compile group: 'org.springframework.integration', name: 'spring-integration-java-dsl', version: '1.2.0.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '4.3.3.RELEASE'
+
+    //optional "org.springframework.boot:spring-boot-configuration-processor"
+    compile "org.springframework.boot:spring-boot-configuration-processor"
+}

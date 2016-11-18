@@ -5,4 +5,5 @@ include 'Test3_PublishSubscribe'
 include 'Test4_Routing'
 include 'Test5_Topics'
 include 'Test6_RabbitMQSpringIntegration'
+include 'Test7_ListenerForEDI'
 

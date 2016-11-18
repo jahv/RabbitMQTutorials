@@ -1,0 +1,10 @@
+exchanges:
+  - jahv.test.exchange1
+  - jahv.test.exchange2
+  - jahv.test.exchange3
+
+
+logging:
+  level:
+    listener.ListenerMain: 'DEBUG'
+    org.springframework: 'INFO'
