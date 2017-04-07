@@ -88,6 +88,11 @@ public class DoStuff {
         return receive(q, retry, msDelay);
     }
 
+    /**
+     * Listen on the queues
+     *
+     * @param queues
+     */
     public void startListeners(List<String> queues) {
         for(String queue : queues) {
             SimpleMessageListenerContainer container = new SimpleMessageListenerContainer(connectionFactory);
